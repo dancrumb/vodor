@@ -1,6 +1,6 @@
 {
   "name": "hosted-hubot",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "private": true,
   "author": "GitHub Inc.",
   "keywords": [
@@ -20,10 +20,11 @@
     "type": "git",
     "url": "https://github.com/github/hubot.git"
   },
+  "peerDependencies": {
+	"hubot" : ">=2.0"
+  },
   "dependencies": {
-    "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-hipchat": "^2.6.4",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0"
+    "hubot-hipchat": "2.12.0-5"
   },
   "engines": {
     "node": ">= 0.8.x",
